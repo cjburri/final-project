@@ -198,7 +198,7 @@ export default class Home extends React.Component {
             <div id="wrapperDiv">
 
                 <div id="overlay" onClick={this.toggleOverlay} ref="overlayDiv" style={{display: this.state.overlayStyle}}></div>
-                <Container id="mainDiv" >
+                <Container id="mainDiv" style={{textAlign: "center"}} >
 
                     <h1 className="mt-5 mb-10" style={{color: "#ffffff"}}>Unify</h1>
 
